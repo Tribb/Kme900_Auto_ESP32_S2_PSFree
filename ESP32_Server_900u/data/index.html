@@ -528,7 +528,7 @@ loadPayloadData();
 </head>
 
 <body onload="run_psfree();">
-    <h1 id=msgs style='font-size:25px;text-align:center;color:white'>Kameleon 900FW ESP32-S2 PSFree Auto</h1>
+<h1 id=msgs style='font-size:25px;text-align:center;color:white'>Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto</h1>
     <div id="progress" class="info" > Loading Menu...</div>
     <div id=mymenu style="text-align:center;display:none;">
       <div text-align= center>Pass = <span id=passCounter></span>&nbsp;&nbsp;:&nbsp;&nbsp;Fail = <span id=failCounter></span></div>
@@ -537,70 +537,74 @@ loadPayloadData();
       <div id="pldmenu" style=font-size:16px>
       <br>
       <div style=font-size:16px>BIN LOADER</div>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Receives .Bin payloads on port 9020 via NetCat'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_binserver9020(); return false">Binloader-9020</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Receives .Bin payloads on port 9021 via NetCat'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_binserver9021(); return false">Binloader-9021</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Receives .Bin payloads on port 9020 via NetCat'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_binserver9020(); return false">Binloader-9020</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Receives .Bin payloads on port 9021 via NetCat'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_binserver9021(); return false">Binloader-9021</button>
       <br>
       <div style=font-size:16px>GOLDHEN</div>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.3 - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_goldhen23(); return false">GoldHEN V2.3</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.4b18 (Latest) - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_goldhenbeta(); return false">GoldHEN V2.4b18</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN Lite v1.0 - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 Auto Lite'" onclick="load_goldhenlite(); return false">GoldHEN Lite V1.0</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.4b18 (Beta) - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_goldhenbeta(); return false">GoldHEN v2.4b18 (Latest)</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.3 - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_goldhen23(); return false">GoldHEN v2.3</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN Lite v1.0 - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_goldhenlite(); return false">GoldHEN Lite v1.0</button>
       <br>
       <div style=font-size:16px>PAYLOADS</div>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Modded Version of App Dumper to Backup PKG files to External HDD  / 9.00 Mod by Kameleon'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_pkg_backup(); return false">PKG-BackUp v1.2</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='App Dumper Only v1.8 - Original Version By xVortex / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_dumper(); return false">App-Dumper</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Disable-Updates v1.0 - By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_disableupdates(); return false">Disable-Updates</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Enable-Updates v1.0 - By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_enableupdates(); return false">Enable-Updates</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Enable Browser / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_enablebrowser(); return false">Enable-Browser</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Exit IDU / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_exitidu(); return false">Exit-IDU</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Modded Version of App Dumper to Backup PKG files to External HDD  / 9.00 Mod by Kameleon'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_pkg_backup(); return false">PKG-BackUp v1.2</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='App Dumper Only v1.8 - Original Version By xVortex / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_dumper(); return false">App-Dumper</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Disable-Updates v1.0 - By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_disableupdates(); return false">Disable-Updates</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Enable-Updates v1.0 - By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_enableupdates(); return false">Enable-Updates</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Enable Browser / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_enablebrowser(); return false">Enable-Browser</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Exit IDU / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_exitidu(); return false">Exit-IDU</button>
     <br><br>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Rifrenamer / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_rifrenamer(); return false">Rif-Renamer</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Ftp v1.08a - Original Version By xVortex / Mod By Hippie68'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_ftp(); return false">Hippie68 Ftp-Server</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='History-Blocker - v2.0 Original Version By Stooged / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_historyblocker(); return false">History-Blocker</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Kernel-Dumper - v1.0 Original Version By Eversion / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_kerneldumper(); return false">Kernel-Dumper</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='PSN Account Offline Web Activator - By Sleirsgoevy'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_webactivator(); return false">Web-Offline-Activator</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Ps4Debug v1.1.16 - By CTN123'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_ps4debug(); return false">Ps4Debug v1.1.16</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='DB-Backup v1.0 - By Leeful / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_backup(); return false">DB-Backup</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Rifrenamer / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_rifrenamer(); return false">Rif-Renamer</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Ftp v1.08a - Original Version By xVortex / Mod By Hippie68'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_ftp(); return false">Ftp-Server-1.08a</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='History-Blocker - v2.0 Original Version By Stooged / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_historyblocker(); return false">History-Blocker</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Kernel-Dumper - v1.0 Original Version By Eversion / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_kerneldumper(); return false">Kernel-Dumper</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='PSN Account Offline Web Activator - By Sleirsgoevy'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_webactivator(); return false">Web-Offline-Activator</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Ps4Debug v1.1.16 - By CTN123'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_ps4debug(); return false">Ps4Debug v1.1.16</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='DB-Backup v1.0 - By Leeful / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_backup(); return false">DB-Backup</button>
     <br><br>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='App-2-Usb - Original Version By Stooged / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_app2usb(); return false">App-2-Usb</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='DB-Restore v1.0 - By Leeful / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_restore(); return false">DB-Restore</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='To-Dex v1.0 - By notzecoxao'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_todex(); return false">To-Dex</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='WebRTE v1.0 - By PS4 Trainer'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_webrte(); return false">WebRTE</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Permanent UART - 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_uart(); return false">Permanent-UART</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Disable ASLR - 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_disableaslr(); return false">Disable-ASLR</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Kernel-Module Dumper -  9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_moduledumper(); return false">Kernel-Module-Dumper</button>
-    <div style=font-size:16px>LINUX PAYLOADS</div>
-    <a id="linuxl" ><button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loaders Payloads'" ; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" type="button">Linux Vram Payloads</button></a>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='App-2-Usb - Original Version By Stooged / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_app2usb(); return false">App-2-Usb</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='DB-Restore v1.0 - By Leeful / 9.00 Port Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_restore(); return false">DB-Restore</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='To-Dex v1.0 - By notzecoxao'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_todex(); return false">To-Dex</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='WebRTE v1.0 - By PS4 Trainer'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_webrte(); return false">WebRTE</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Permanent UART - 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_uart(); return false">Permanent-UART</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Disable ASLR - 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_disableaslr(); return false">Disable-ASLR</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Kernel-Module Dumper -  9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_moduledumper(); return false">Kernel-Module-Dumper</button>
+    </div>
+    <br><br>
+    <a id="linuxl" ><button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loaders Payloads'" ; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" type="button">Linux Vram Payloads</button></a>
     <div id="linuxlJ" style="display: none;">
       <br><br>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 1GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_Linux1gb(); return false">NazkyYT Linux 1GB Vram</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 2GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_Linux2gb(); return false">NazkyYT Linux 2GB Vram</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 3GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_Linux3gb(); return false">NazkyYT Linux 3GB Vram</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 4GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_Linux4gb(); return false">NazkyYT Linux 4GB Vram</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 5GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_Linux5gb(); return false">NazkyYT Linux 5GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 1GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_Linux1gb(); return false">NazkyYT Linux 1GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 2GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_Linux2gb(); return false">NazkyYT Linux 2GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 3GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_Linux3gb(); return false">NazkyYT Linux 3GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 4GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_Linux4gb(); return false">NazkyYT Linux 4GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 5GB - 9.00 Port By NazkyYT'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_Linux5gb(); return false">NazkyYT Linux 5GB Vram</button>
       <br><br>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 1GB - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_psxita_Linux1gb(); return false">PSXita Linux 1GB Vram</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 2GB - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_psxita_Linux2gb(); return false">PSXita Linux 2GB Vram</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 3GB - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_psxita_Linux3gb(); return false">PSXita Linux 3GB Vram</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 4GB - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_psxita_Linux4gb(); return false">PSXita Linux 4GB Vram</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 5GB - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_psxita_Linux5gb(); return false">PSXita Linux 5GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 1GB - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_psxita_Linux1gb(); return false">PSXita Linux 1GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 2GB - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_psxita_Linux2gb(); return false">PSXita Linux 2GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 3GB - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_psxita_Linux3gb(); return false">PSXita Linux 3GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 4GB - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_psxita_Linux4gb(); return false">PSXita Linux 4GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 5GB - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_psxita_Linux5gb(); return false">PSXita Linux 5GB Vram</button>
       <br><br>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 1GB For PS4 Pro - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_psxita_pro_Linux1gb(); return false">PSXita-PRO Linux 1GB Vram</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 2GB For PS4 Pro - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_psxita_pro_Linux2gb(); return false">PSXita-PRO Linux 2GB Vram</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 3GB For PS4 Pro - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_psxita_pro_Linux3gb(); return false">PSXita-PRO Linux 3GB Vram</button>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 4GB For PS4 Pro - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" onclick="load_psxita_pro_Linux4gb(); return false">PSXita-PRO Linux 4GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 1GB For PS4 Pro - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_psxita_pro_Linux1gb(); return false">PSXita-PRO Linux 1GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 2GB For PS4 Pro - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_psxita_pro_Linux2gb(); return false">PSXita-PRO Linux 2GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 3GB For PS4 Pro - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_psxita_pro_Linux3gb(); return false">PSXita-PRO Linux 3GB Vram</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='Linux Vram Loader 4GB For PS4 Pro - 9.00 Port By PSXita'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" onclick="load_psxita_pro_Linux4gb(); return false">PSXita-PRO Linux 4GB Vram</button>
     </div>
     <div id="Backl" style="display: none;">
-      <br><br>
-      <a ><button class="btnkme" onMouseOver="msgs.innerHTML='Go Back'" ; onmouseout="msgs.innerHTML='Kameleon 900FW ESP32-S2 PSFree Auto'" type="button">Back</button></a>
+      <br>
+      <br>
+      <a ><button class="btnkme" onMouseOver="msgs.innerHTML='Go Back'" ; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit ESP32-S2 PSFree Host Auto'" type="button">Back</button></a>
     </div>
     <br>
-    <p style="text-align:center;font-size:25px;color:white">Massive Thanks - abc, Znullptr, ChendoChap, Specter, Sleirsgoevy, theflow0, SiSTRo, Al-Azif, PRB-Borg, Leeful, Nazky And Many More...</p>
-    <p style="text-align:center;font-size:20px;color:white">https://twitter.com/Kameleonre_</p>
+    <h1 style="text-align:center;font-size:25px;color:white">Massive Thanks - abc[psfree author], Theflow0, Znullptr, ChendoChap, Specter, Sleirsgoevy, SiSTRo, Al-Azif, PRB, Leeful And Many More...</h1>
+    <p style="text-align:center;font-size:20px;color:white"><a href="https://twitter.com/Kameleonre_">Kameleonre_</a></p>
     </div>
+
     <script>
     var UA = navigator.userAgent.substring(navigator.userAgent.indexOf('5.0 (') + 19, navigator.userAgent.indexOf(') Apple')).replace("layStation 4/","");
     if (UA == "9.00"){PS4fw.innerHTML="v"+UA+" Detected"};if(UA != "9.00"){PS4fw.innerHTML="Spoofed To v"+UA};
     </script>
+    
     <script>
     if (localStorage.passcount == null || localStorage.passcount == undefined) localStorage.passcount=0;
      if (localStorage.passCounter == null || localStorage.passCounter == undefined ){
@@ -609,27 +613,27 @@ loadPayloadData();
      if (localStorage.failCounter == null || localStorage.failCounter == undefined ){
       failCounter.innerHTML=localStorage.failcount;}
     </script>
-
-<script> //Organize the payloads menu Method By NazkyYT Modded By Kameleon
-    var GBl = document.getElementById("Backl");
-    var plmenu = document.getElementById("pldmenu");
-    var linuxl = document.getElementById("linuxl");
-    var linuxlJ = document.getElementById("linuxlJ");
-
-      linuxl.onclick = function() 
-      {
-      plmenu.style.display = "none";
-      linuxl.style.display = "none";
-      linuxlJ.style.display = "unset";
-      GBl.style.display = "unset";
+    
+    <script> //Organize more the payloads menu Method By NazkyYT Modded By KameleonReloaded
+      var GBl = document.getElementById("Backl");
+      var plmenu = document.getElementById("pldmenu");
+      var linuxl = document.getElementById("linuxl");
+      var linuxlJ = document.getElementById("linuxlJ");
+    
+      linuxl.onclick = function() {
+        plmenu.style.display = "none";
+        linuxl.style.display = "none";
+        linuxlJ.style.display = "unset";
+        GBl.style.display = "unset";
+        
       }
-
-    GBl.onclick = function() {
-      plmenu.style.display = "unset";
-      linuxl.style.display = "unset"
-      linuxlJ.style.display = "none";
-      GBl.style.display = "none";
-    }
+      GBl.onclick = function() {
+        plmenu.style.display = "unset";
+        linuxl.style.display = "unset"
+        linuxlJ.style.display = "none";
+        GBl.style.display = "none";
+      }
+      
     </script>
 
 
